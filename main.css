@@ -1,0 +1,92 @@
+:root {
+  --primary-color: #dc3545;
+  --dark-color: #333333;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'arial', sans-serif;
+  font-size: 4rem;
+  line-height: 1.6;
+  background-color: rgb(3, 0, 29);
+  color: #333;
+  margin: 20px;
+  color: white;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+.button {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: var(--main-blue);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 900;
+  padding: 0.5em;
+  box-shadow: none;
+  border: none;
+  transition-duration: 0.4s;
+  outline: none;
+  margin: 1rem;
+  border: rgba(255, 255, 255, 0.144);
+  border-style: solid;
+  border-width: 2px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: var(--main-blue-light);
+  color: black;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: rgb(110, 139, 231);
+}
+
+label {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.text1 {
+  position: relative;
+  top: 100px;
+}
